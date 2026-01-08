@@ -384,4 +384,30 @@ hr {
   background-color: #c9a24d;
   color: #fff;
 }
+/* ==============================
+   PREMIUM MOBILE ONLY
+============================== */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+  .container {
+    margin: 60px auto;
+    padding: 0 18px;
+  }
+
+  .room-gallery {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .room-gallery img {
+    height: 320px;
+  }
+
+}
+
 
